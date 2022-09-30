@@ -9,7 +9,7 @@ from matplotlib import pyplot as plt
 #img = cv2.imread("royal_family_4.jpeg")
 img = np.array(Image.open('royal_family_4.jpeg'))
 
-# OpenCV abre a imagem em BRG,
+# OpenCV abre a imagem em BGR,
 # mas ela deve estar em RGB 
 # para transformá-la em escala de cinza
 # Utiliza-se funções próprias da cv2 para realizar a alteração
