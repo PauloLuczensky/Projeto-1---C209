@@ -16,7 +16,7 @@ img = np.array(Image.open('royal_family_4.jpeg'))
 # img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-#Em vez de realizar as tranformações pela funções do cva
+#Em vez de realizar as tranformações pela funções do cv2
 #realizou-se por meio do grayscale ensinado no laboratório
 def grayscale(img_np):
     (l, c, p) = img_np.shape
